@@ -2,8 +2,8 @@ spring:
   datasource:
     username: root
     password: cHJvbWV0aGV1cw==
-    url: jdbc:mysql://localhost:3306/java_spring_boilerplate?useSSL=false
-    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/java_spring_boilerplate?allowPublicKeyRetrieval=true&useSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
       ddl-auto: update
